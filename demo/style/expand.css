@@ -1,0 +1,9 @@
+.expand {
+    height: 50px;
+    -webkit-transition: height 250ms;
+    transition: height 250ms;
+}
+
+.expand--active {
+    height: 300px;
+}

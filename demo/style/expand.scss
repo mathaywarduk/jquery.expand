@@ -1,0 +1,18 @@
+// 
+// EXPANDING TEXT AREAS
+// ==========================================================================
+
+$inactive-height:   50; // height of textarea when inactive
+$active-height:     300; // height of textarea when active or filled in
+$speed:             250ms; // speed of expand/contract
+
+
+.expand {
+    height: $inactive-height * 1px;
+    -webkit-transition: height $speed;
+    transition: height $speed;
+}
+
+.expand--active {
+    height: $active-height * 1px;
+}
