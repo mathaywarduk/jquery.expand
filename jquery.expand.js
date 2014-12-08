@@ -35,7 +35,7 @@
             });
         },
         getAttributes: function() {
-            this.opts.classPrefix = this.$element.attr("data-ssel-class") ? this.$element.attr("data-ssel-class") : this.opts.classPrefix;
+            this.opts.classPrefix = this.$element.attr("data-expand-class") ? this.$element.attr("data-expand-class") : this.opts.classPrefix;
         },
         expand: function() {
             this.$element.addClass(this.opts.classPrefix + "--active");
